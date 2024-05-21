@@ -21,7 +21,9 @@ function App() {
 
   return (
     <>
-      <Modal />
+      <Modal
+        children={<TaskForm btnText="Editar Tarefa" taskList={taskList} />}
+      />
       <Header />
       <main className={styles.main}>
         <div>
