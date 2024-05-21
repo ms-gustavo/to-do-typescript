@@ -12,7 +12,7 @@ function Modal({ children }: Props) {
 
   return (
     <div id="modal" className="hide">
-      <div className={styles.fade} onClick={closeModal}></div>
+      <div id="fade-modal" className={styles.fade} onClick={closeModal}></div>
       <div id="edit-modal" className={styles.modal}>
         <h2>Editar Tarefa</h2>
         {children}
