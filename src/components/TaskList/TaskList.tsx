@@ -4,7 +4,7 @@ import { ITask } from "../../interfaces/Task";
 type Props = {
   taskList: ITask[];
   handleDelete(id: number): void;
-  handleEditTask(): void;
+  handleEditTask(task: ITask): void;
 };
 
 function TaskList({ taskList, handleDelete, handleEditTask }: Props) {
@@ -21,7 +21,7 @@ function TaskList({ taskList, handleDelete, handleEditTask }: Props) {
               <i
                 className="bi bi-pencil"
                 onClick={() => {
-                  handleEditTask();
+                  handleEditTask(task);
                 }}
               ></i>
               <i
