@@ -12,12 +12,12 @@ function TaskList({ taskList, handleDelete, handleEditTask }: Props) {
     <>
       {taskList.length > 0 ? (
         taskList.map((task) => (
-          <div className={styles.task} key={task.id}>
-            <div className={styles.details}>
+          <div id="task-list-item" className={styles.task} key={task.id}>
+            <div id="task-list-item-details" className={styles.details}>
               <h4>{task.title}</h4>
               <p>Dificuldade: {task.difficulty}</p>
             </div>
-            <div className={styles.actions}>
+            <div id="task-list-item-actions" className={styles.actions}>
               <i
                 className="bi bi-pencil"
                 onClick={() => {
