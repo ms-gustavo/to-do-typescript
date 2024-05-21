@@ -72,6 +72,7 @@ npm install</code>
 │   ├── App.tsx
 │   ├── index.css
 │   ├── main.tsx
+|   └── vite-env.d.ts
 ├── .eslintrc.cjs
 ├── .gitignore
 ├── commitlint.config.ts
@@ -81,6 +82,6 @@ npm install</code>
 ├── package.json
 ├── README.md
 ├── tsconfig.json
-└── vite-env.d.ts
+└── tsconfig.node.json        
 </code>
         </pre>
