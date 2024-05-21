@@ -59,7 +59,7 @@ function App() {
       />
       <Header />
       <main className={styles.main}>
-        <div>
+        <div id="task-form">
           <h2>O que você vai fazer?</h2>
           <TaskForm
             btnText="Criar tarefa"
@@ -67,7 +67,7 @@ function App() {
             setTaskList={setTaskList}
           />
         </div>
-        <div>
+        <div id="task-list">
           <h2>Suas tarefas</h2>
           <TaskList
             taskList={taskList}
