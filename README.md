@@ -43,7 +43,7 @@ npm install</code>
    <h2 id="husky">Husky</h2>
         <p>Husky é utilizado para gerenciar ganchos de pré-commit. Ele é configurado para rodar os testes do Cypress antes de cada commit. A configuração do Husky pode ser encontrada na pasta <code>.husky</code> do projeto.</p>
 
-        <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
+<h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
         <pre>
 <code>
 .project-root
