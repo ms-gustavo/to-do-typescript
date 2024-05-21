@@ -5,6 +5,8 @@ import Footer from "./components/Footer/Footer";
 import TaskForm from "./components/TaskForm/TaskForm";
 import TaskList from "./components/TaskList/TaskList";
 
+import { ITask } from "./interfaces/Task";
+
 function App() {
   return (
     <>
