@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./App.module.css";
+import { ITask } from "./interfaces/Task";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import TaskForm from "./components/TaskForm/TaskForm";
 import TaskList from "./components/TaskList/TaskList";
-
-import { ITask } from "./interfaces/Task";
+import Modal from "./components/Modal/Modal";
 
 function App() {
   const [taskList, setTaskList] = useState<ITask[]>([]);
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <>
+      <Modal />
       <Header />
       <main className={styles.main}>
         <div>
