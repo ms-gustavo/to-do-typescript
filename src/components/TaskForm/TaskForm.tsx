@@ -22,9 +22,6 @@ function TaskForm({ btnText, taskList, setTaskList }: Props) {
     setTitle("");
     setDifficulty(0);
   };
-  useEffect(() => {
-    console.log(taskList);
-  }, [taskList]);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.name === "title") {
