@@ -37,6 +37,11 @@ function TaskForm({
     } else {
       const id = Math.floor(Math.random() * 1000);
       const newTask: ITask = { id, title, difficulty };
+      console.log(newTask);
+      if (newTask.title.length < 1) {
+        alert("Adicione um título a tarefa!");
+        return;
+      }
       setTaskList!([...taskList, newTask]);
       setTitle("");
       setDifficulty(0);
