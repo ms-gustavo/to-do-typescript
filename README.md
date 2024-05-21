@@ -9,15 +9,13 @@
             <li><a href="#testes">Testes</a></li>
             <li><a href="#husky">Husky</a></li>
             <li><a href="#estrutura-do-projeto">Estrutura do Projeto</a></li>
-            <li><a href="#contribuicao">Contribuição</a></li>
-            <li><a href="#licenca">Licença</a></li>
         </ul>
 
    <h2 id="instalacao">Instalação</h2>
         <p>Para clonar e instalar as dependências do projeto, siga os passos abaixo:</p>
         <pre>
-<code>git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+<code>git clone https://github.com/ms-gustavo/to-do-typescript.git
+cd to-do-typescript
 npm install</code>
         </pre>
 
