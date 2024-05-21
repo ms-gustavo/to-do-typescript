@@ -5,7 +5,7 @@ type Props = {
 };
 
 function Modal({ children }: Props) {
-  const closeModal = (e: React.MouseEvent): void => {
+  const closeModal = (): void => {
     const modal = document.querySelector("#modal");
     modal!.classList.add("hide");
   };
