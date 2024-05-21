@@ -43,6 +43,7 @@ function TaskForm({
         return;
       }
       setTaskList!([...taskList, newTask]);
+      alert("Tarefa criada com sucesso!");
       setTitle("");
       setDifficulty(0);
     }
