@@ -30,10 +30,7 @@ jobs:
           CI: true
 
       - name: Wait for server to be ready
-        uses: cypress-io/github-action@v5
-        with:
-          start: npm run dev
-          wait-on: "http://localhost:5173"
+        run: npx wait-on http://localhost:5173
 
       - name: Run Cypress tests
         run: npm test
