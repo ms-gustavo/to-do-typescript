@@ -1,5 +1,5 @@
 <h1>To Do List App</h1>
-        <p>Este é um projeto simples de lista de tarefas (To Do List) desenvolvido usando TypeScript, Vite e React. O objetivo deste projeto é proporcionar um primeiro contato com TypeScript e aprimorar habilidades com Cypress e Husky.</p>
+        <p>Este é um projeto simples de lista de tarefas (To Do List) desenvolvido usando TypeScript, Vite e React. O objetivo deste projeto é proporcionar um primeiro contato com TypeScript e CI/CD e aprimorar habilidades com Cypress e Husky.</p>
         
   <h2>Índice</h2>
        <ul>
@@ -45,6 +45,8 @@ npm install</code>
         <pre>
 <code>
 .project-root
+├── .github
+│   └── workflows
 ├── .husky
 │   ├── _/
 │   ├── commit-msg
